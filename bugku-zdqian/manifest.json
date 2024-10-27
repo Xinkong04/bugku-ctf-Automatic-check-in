@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Bugku Auto Check-in",
+  "version": "1.0",
+  "description": "Automatically visit Bugku CTF for daily check-in.",
+  "permissions": [
+    "tabs",
+    "alarms",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://ctf.bugku.com/*"  
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://ctf.bugku.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
