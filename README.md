@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/17534281/README.md)# bugku-ctf-自动签到插件
+# bugku-ctf-自动签到插件
 ctf平台 bugku的谷歌自动签到插件
 <!--
  * @Author: Z-Es-0 zes18642300628@qq.com
